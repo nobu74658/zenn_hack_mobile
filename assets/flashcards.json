@@ -1,0 +1,125 @@
+[
+  {
+    "flashcardId": 1,
+    "word": {
+      "wordId": 1,
+      "word": "run",
+      "coreMeaning": "move fast using legs",
+      "explanation": "To move swiftly on foot so that both feet leave the ground during each stride"
+    },
+    "meanings": [
+      {
+        "meaningId": 1,
+        "pos": "intransitiveVerb",
+        "translation": "走る",
+        "pronunciation": "rʌn",
+        "exampleEng": "I run every morning.",
+        "exampleJpn": "私は毎朝走ります。"
+      },
+      {
+        "meaningId": 2,
+        "pos": "transitiveVerb",
+        "translation": "経営する",
+        "pronunciation": "rʌn",
+        "exampleEng": "She runs a small business.",
+        "exampleJpn": "彼女は小さなビジネスを経営しています。"
+      }
+    ],
+    "media": [
+      {
+        "mediaId": 1,
+        "meaningId": 1,
+        "mediaUrls": ["https://example.com/run-animation.mp4", "https://example.com/run-image.jpg"]
+      },
+      {
+        "mediaId": 2,
+        "meaningId": 2,
+        "mediaUrls": ["https://example.com/business-image.jpg"]
+      }
+    ],
+    "memo": "Common verb with multiple meanings",
+    "checkFlag": false
+  },
+  {
+    "flashcardId": 2,
+    "word": {
+      "wordId": 2,
+      "word": "water",
+      "coreMeaning": "clear liquid essential for life",
+      "explanation": "A transparent, odorless, tasteless liquid that forms seas, lakes, rivers, and rain"
+    },
+    "meanings": [
+      {
+        "meaningId": 3,
+        "pos": "noun",
+        "translation": "水",
+        "pronunciation": "ˈwɔːtər",
+        "exampleEng": "I need a glass of water.",
+        "exampleJpn": "水を一杯ください。"
+      },
+      {
+        "meaningId": 4,
+        "pos": "transitiveVerb",
+        "translation": "水をやる",
+        "pronunciation": "ˈwɔːtər",
+        "exampleEng": "Please water the plants.",
+        "exampleJpn": "植物に水をやってください。"
+      }
+    ],
+    "media": [
+      {
+        "mediaId": 3,
+        "meaningId": 3,
+        "mediaUrls": ["https://example.com/water-glass.jpg", "https://example.com/water-sound.mp3"]
+      },
+      {
+        "mediaId": 4,
+        "meaningId": 4,
+        "mediaUrls": ["https://example.com/watering-plants.mp4"]
+      }
+    ],
+    "memo": "Essential word with noun and verb forms",
+    "checkFlag": false
+  },
+  {
+    "flashcardId": 3,
+    "word": {
+      "wordId": 3,
+      "word": "book",
+      "coreMeaning": "written or printed work",
+      "explanation": "A set of printed pages fastened along one edge and encased between protective covers"
+    },
+    "meanings": [
+      {
+        "meaningId": 5,
+        "pos": "noun",
+        "translation": "本",
+        "pronunciation": "bʊk",
+        "exampleEng": "This book is interesting.",
+        "exampleJpn": "この本は面白いです。"
+      },
+      {
+        "meaningId": 6,
+        "pos": "transitiveVerb",
+        "translation": "予約する",
+        "pronunciation": "bʊk",
+        "exampleEng": "I'll book a table for dinner.",
+        "exampleJpn": "夕食のテーブルを予約します。"
+      }
+    ],
+    "media": [
+      {
+        "mediaId": 5,
+        "meaningId": 5,
+        "mediaUrls": ["https://example.com/book-image.jpg"]
+      },
+      {
+        "mediaId": 6,
+        "meaningId": 6,
+        "mediaUrls": ["https://example.com/booking-app.jpg"]
+      }
+    ],
+    "memo": "Common word with different meanings as noun and verb",
+    "checkFlag": true
+  }
+]

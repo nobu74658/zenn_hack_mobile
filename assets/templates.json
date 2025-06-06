@@ -1,0 +1,23 @@
+[
+  {
+    "templateId": 1,
+    "name": "Basic Flashcard",
+    "description": "Standard flashcard template with word, meaning, and example",
+    "generationType": "flashcard",
+    "promptText": "Create a flashcard for the word {{word}} with meaning and examples"
+  },
+  {
+    "templateId": 2,
+    "name": "Visual Learning",
+    "description": "Template emphasizing visual media for better memorization",
+    "generationType": "media",
+    "promptText": "Generate visual content for the word {{word}} focusing on {{meaning}}"
+  },
+  {
+    "templateId": 3,
+    "name": "Context Sentences",
+    "description": "Template for generating multiple context sentences",
+    "generationType": "sentence",
+    "promptText": "Create 5 different sentences using the word {{word}} in various contexts"
+  }
+]

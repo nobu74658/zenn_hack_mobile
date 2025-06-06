@@ -1,0 +1,32 @@
+[
+  {
+    "mediaId": 1,
+    "meaningId": 1,
+    "mediaUrls": ["https://example.com/run-animation.mp4", "https://example.com/run-image.jpg"]
+  },
+  {
+    "mediaId": 2,
+    "meaningId": 2,
+    "mediaUrls": ["https://example.com/business-image.jpg"]
+  },
+  {
+    "mediaId": 3,
+    "meaningId": 3,
+    "mediaUrls": ["https://example.com/water-glass.jpg", "https://example.com/water-sound.mp3"]
+  },
+  {
+    "mediaId": 4,
+    "meaningId": 4,
+    "mediaUrls": ["https://example.com/watering-plants.mp4"]
+  },
+  {
+    "mediaId": 5,
+    "meaningId": 5,
+    "mediaUrls": ["https://example.com/book-image.jpg"]
+  },
+  {
+    "mediaId": 6,
+    "meaningId": 6,
+    "mediaUrls": ["https://example.com/booking-app.jpg"]
+  }
+]

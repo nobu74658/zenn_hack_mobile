@@ -1,0 +1,20 @@
+[
+  {
+    "wordId": 1,
+    "word": "run",
+    "coreMeaning": "move fast using legs",
+    "explanation": "To move swiftly on foot so that both feet leave the ground during each stride"
+  },
+  {
+    "wordId": 2,
+    "word": "water",
+    "coreMeaning": "clear liquid essential for life",
+    "explanation": "A transparent, odorless, tasteless liquid that forms seas, lakes, rivers, and rain"
+  },
+  {
+    "wordId": 3,
+    "word": "book",
+    "coreMeaning": "written or printed work",
+    "explanation": "A set of printed pages fastened along one edge and encased between protective covers"
+  }
+]
