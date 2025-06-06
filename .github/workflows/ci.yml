@@ -1,42 +1,27 @@
-name: Continuous Integration (flutter_client)
+name: Flutter_Analyzer
+
 on:
   pull_request:
+    types: [opened, synchronize]
+  push:
+    branches:
+      - main
+      - release
 
 jobs:
-  ci:
+  flutter_analyze:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
-    defaults:
-      run:
-        working-directory: flutter_client
+    timeout-minutes: 10
     steps:
-      - name: checkout
-        uses: actions/checkout@v4
-
-      - name: Read Flutter version from mise.toml
+      - uses: actions/checkout@v4
+      - name: Read Flutter version from .fvmrc
         id: flutter_version
-        run: echo "FLUTTER_VERSION=$(grep 'flutter' mise.toml | cut -d '"' -f 2)" >> $GITHUB_ENV
-
-      - name: flutter setup
-        uses: subosito/flutter-action@v2
+        run: echo "FLUTTER_VERSION=$(awk -F'\"' '/flutter/ {print $4}' ./.fvmrc)" >> $GITHUB_ENV
+      - uses: subosito/flutter-action@v2
         with:
           flutter-version: ${{ env.FLUTTER_VERSION }}
-          channel: stable
+          channel: "stable"
           cache: true
-
-      - name: version check
-        run: flutter --version
-
-      - name: Decode and generate firebase_options.dart
-        env:
-          FIREBASE_OPTIONS_BASE64: ${{ secrets.FIREBASE_OPTIONS_BASE64 }}
-        run: echo $FIREBASE_OPTIONS_BASE64 | base64 --decode > lib/firebase_options.dart
-
-      - name: install packages
-        run: flutter pub get
-
-      - name: flutter analyze
-        run: flutter analyze
-
-      - name: flutter test
-        run: flutter test
+      - run: flutter pub get
+      - run: flutter analyze
+      - run: flutter test
