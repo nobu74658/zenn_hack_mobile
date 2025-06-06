@@ -1,0 +1,50 @@
+[
+  {
+    "meaningId": 1,
+    "pos": "intransitiveVerb",
+    "translation": "走る",
+    "pronunciation": "rʌn",
+    "exampleEng": "I run every morning.",
+    "exampleJpn": "私は毎朝走ります。"
+  },
+  {
+    "meaningId": 2,
+    "pos": "transitiveVerb",
+    "translation": "経営する",
+    "pronunciation": "rʌn",
+    "exampleEng": "She runs a small business.",
+    "exampleJpn": "彼女は小さなビジネスを経営しています。"
+  },
+  {
+    "meaningId": 3,
+    "pos": "noun",
+    "translation": "水",
+    "pronunciation": "ˈwɔːtər",
+    "exampleEng": "I need a glass of water.",
+    "exampleJpn": "水を一杯ください。"
+  },
+  {
+    "meaningId": 4,
+    "pos": "transitiveVerb",
+    "translation": "水をやる",
+    "pronunciation": "ˈwɔːtər",
+    "exampleEng": "Please water the plants.",
+    "exampleJpn": "植物に水をやってください。"
+  },
+  {
+    "meaningId": 5,
+    "pos": "noun",
+    "translation": "本",
+    "pronunciation": "bʊk",
+    "exampleEng": "This book is interesting.",
+    "exampleJpn": "この本は面白いです。"
+  },
+  {
+    "meaningId": 6,
+    "pos": "transitiveVerb",
+    "translation": "予約する",
+    "pronunciation": "bʊk",
+    "exampleEng": "I'll book a table for dinner.",
+    "exampleJpn": "夕食のテーブルを予約します。"
+  }
+]

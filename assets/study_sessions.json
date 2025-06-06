@@ -1,0 +1,38 @@
+[
+  {
+    "sessionId": 1,
+    "userId": "user001",
+    "startTime": "2024-01-15T09:00:00Z",
+    "endTime": "2024-01-15T09:30:00Z",
+    "flashcardIds": [1, 2, 3],
+    "cardsMastered": 1,
+    "cardsNeedsPractice": 2,
+    "cardsSkipped": 0,
+    "durationSeconds": 1800,
+    "isCompleted": true
+  },
+  {
+    "sessionId": 2,
+    "userId": "user001",
+    "startTime": "2024-01-16T14:00:00Z",
+    "endTime": "2024-01-16T14:20:00Z",
+    "flashcardIds": [1, 2],
+    "cardsMastered": 2,
+    "cardsNeedsPractice": 0,
+    "cardsSkipped": 0,
+    "durationSeconds": 1200,
+    "isCompleted": true
+  },
+  {
+    "sessionId": 3,
+    "userId": "user002",
+    "startTime": "2024-01-16T10:00:00Z",
+    "endTime": null,
+    "flashcardIds": [2, 3],
+    "cardsMastered": 0,
+    "cardsNeedsPractice": 0,
+    "cardsSkipped": 0,
+    "durationSeconds": 0,
+    "isCompleted": false
+  }
+]

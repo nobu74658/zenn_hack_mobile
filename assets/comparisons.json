@@ -1,0 +1,14 @@
+[
+  {
+    "comparisonId": 1,
+    "oldMediaId": 1,
+    "newMediaId": 2,
+    "selected": "new"
+  },
+  {
+    "comparisonId": 2,
+    "oldMediaId": 3,
+    "newMediaId": 4,
+    "selected": "old"
+  }
+]

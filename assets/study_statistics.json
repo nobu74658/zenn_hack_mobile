@@ -1,0 +1,38 @@
+[
+  {
+    "statisticsId": 1,
+    "userId": "user001",
+    "totalCardsStudied": 5,
+    "uniqueCardsStudied": 3,
+    "totalStudyTimeSeconds": 3000,
+    "masteryDistribution": {
+      "beginner": 0,
+      "learning": 2,
+      "intermediate": 0,
+      "advanced": 1,
+      "mastered": 0
+    },
+    "currentStreak": 2,
+    "longestStreak": 5,
+    "lastStudyDate": "2024-01-16T14:20:00Z",
+    "lastUpdated": "2024-01-16T14:20:00Z"
+  },
+  {
+    "statisticsId": 2,
+    "userId": "user002",
+    "totalCardsStudied": 2,
+    "uniqueCardsStudied": 2,
+    "totalStudyTimeSeconds": 600,
+    "masteryDistribution": {
+      "beginner": 2,
+      "learning": 0,
+      "intermediate": 0,
+      "advanced": 0,
+      "mastered": 0
+    },
+    "currentStreak": 1,
+    "longestStreak": 1,
+    "lastStudyDate": "2024-01-16T10:00:00Z",
+    "lastUpdated": "2024-01-16T10:00:00Z"
+  }
+]
