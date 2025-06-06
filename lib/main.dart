@@ -19,7 +19,6 @@ class ZennHackMobileApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(
           seedColor: Colors.blue,
-          brightness: Brightness.light,
         ),
         useMaterial3: true,
       ),
